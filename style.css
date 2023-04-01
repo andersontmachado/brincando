@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+.img {
+  max-width: 50%;
+}
+
+.ladoalado {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+
+
+.titulo {
+  background: #fff;
+  margin: 0px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.introducao {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  text-align:left;
+  padding: 10px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+
+.legenda_rog {
+  color: #fbff00;
+  position: absolute;
+}
+.legenda_rog:hover {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.legenda_mar {
+  color: #fbff00;
+  position: absolute;
+  left: 800px;
+}
+.legenda_mar:hover {
+  font-size: 20px;
+  text-decoration: underline;
+}
