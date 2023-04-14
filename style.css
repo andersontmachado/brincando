@@ -37,24 +37,22 @@ h2 {
   color: #ff0000;
 }
 .torcida-img {
-display: flex;
-grid-template-rows: 1fr 1fr;
-max-width: 50%;
-
-}
-.introdução-torcida{
   display: flex;
-  flex-direction: column;
+  grid-template-rows: 1fr 1fr;
+  max-width: 50%;
 }
-
+.introducao-torcida {
+  display: flex;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
 
 .rodape {
-  display: block;
   background: linear-gradient(#ff0000, #000000, #ffffff);
   width: 100%;
   text-align: center;
   padding: 2rem; /*A soma do width + padding=140 no layout aparece a barrinha mostra que esta vazando a tela,então incluimos o box-sizing*/
   box-sizing: border-box; /*Muito bom */
-  margin: 0px;
+  margin-top: 10px;
   color: #fff;
 }
