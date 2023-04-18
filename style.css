@@ -36,17 +36,25 @@ h2 {
   text-align: center;
   color: #ff0000;
 }
-.torcida-img {
-  display: flex;
-  grid-template-rows: 1fr 1fr;
-  max-width: 50%;
-}
 .introducao-torcida {
   display: flex;
-  grid-template-columns: 1fr;
-  gap: 20px;
+
 }
 
+
+
+
+
+
+.torcida-img {
+  width: 600px;
+  height: auto;
+}
+
+
+p {
+  margin: 0px;
+}
 .rodape {
   background: linear-gradient(#ff0000, #000000, #ffffff);
   width: 100%;
