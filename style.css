@@ -4,12 +4,12 @@ body {
   position: relative;
 }
 .img-rogerio {
-  max-width: 50%;
-  height: auto;
+  width: 100vh;
+  margin: 0 auto
 }
 .img-marcos {
-  max-width: 50%;
-  height: auto;
+  width: 100vh;
+  margin: 0 auto;
 }
 .ladoalado {
   display: flex;
@@ -36,19 +36,31 @@ h2 {
   text-align: center;
   color: #ff0000;
 }
-.introducao-torcida {
-  display: flex;
-
-}
-
-
-
-
 
 
 .torcida-img {
-  width: 600px;
-  height: auto;
+  width: 100vh;
+  margin: 0 10px;
+}
+.introducao-torcida {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0px;
+  gap: 20px;
+  align-self: center;
+}
+.subtitulo {
+  color: #ff0000;
+  margin: 10px;
+  padding: 0px;
+  text-align: left;
+  gap: 20px;
+}
+.resumo {
+  font-size: 1rem;
+  padding: 10px;
+  text-align: left;
+  margin: 0px;
 }
 
 
