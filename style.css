@@ -39,29 +39,57 @@ h2 {
 
 
 .torcida-img {
-  width: 100vh;
+  width: 500px;
   margin: 0 10px;
+  gap: 10px;
 }
 .introducao-torcida {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 0px;
-  gap: 20px;
-  align-self: center;
+  display: flex;
+  margin: 10px;
+  gap: 5px;
 }
 .subtitulo {
   color: #ff0000;
-  margin: 10px;
-  padding: 0px;
-  text-align: left;
+  font-size: 2rem;
+  margin: 10px 20px;
+  padding: 10px;
+  text-align: center;
   gap: 20px;
 }
 .resumo {
   font-size: 1rem;
   padding: 10px;
-  text-align: left;
+  text-align: center;
   margin: 0px;
 }
+.rog-dem-img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: auto;
+  margin:0 10px;
+
+  }
+.rogerio-demitido{
+  display: flex;
+  margin: 10px;
+  gap: 5px;
+
+}
+.subtit-demissao {
+  font-size: 2rem;
+  margin: 10px 20px;
+  padding: 10px;
+  text-align: center;
+  gap: 10px;
+}
+.introd-demissao {
+  font-size: 1rem;
+  padding: 10px;
+  text-align: center;
+  margin: 0px;
+}
+
 
 
 p {
