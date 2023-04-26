@@ -90,8 +90,6 @@ h2 {
   margin: 0px;
 }
 
-
-
 p {
   margin: 0px;
 }
@@ -103,36 +101,4 @@ p {
   box-sizing: border-box; /*Muito bom */
   margin-top: 10px;
   color: #fff;
-}
-@media (max-width:1000px) {
-  .ladoalado {
-    flex-direction: column;
-    margin: 0px;
-    text-decoration: underline;
-}
-.titulo {
-  text-align: center;
-}
-}
-@media (max-width:600px) {
-.container {
-  flex-direction: column;
-  margin: 0px;
-
-}
-.torcida-img {
-  width: 600px;
-  height: 0 auto;
-  margin: 0px;
-  gap: 0px;
-}
-}
-@media(max-width:400px) {
-  .torcida-img {
-    max-width: 100%;
-    height: auto;
-    margin: 0px;
-    gap: 0px;
-  }
-
 }
